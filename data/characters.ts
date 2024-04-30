@@ -6,8 +6,9 @@ import { data as f5SpritesheetData } from './spritesheets/f5';
 import { data as f6SpritesheetData } from './spritesheets/f6';
 import { data as f7SpritesheetData } from './spritesheets/f7';
 import { data as f8SpritesheetData } from './spritesheets/f8';
-
-export const Descriptions = [
+import { default as data } from './characters.json'
+export const Descriptions = data
+export const Descriptions2 = [
   // {
   //   name: 'Alex',
   //   character: 'f5',
